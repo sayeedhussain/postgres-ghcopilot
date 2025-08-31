@@ -14,7 +14,7 @@ This repo demonstrates how to talk to a postgres database using natural language
 - Search for GitHub Copilot and GitHub Copilot Chat and click Install for both.
 - Search for PostgreSQL and click Install on the extension published by Microsoft. 
 
-## Step 2: Install the necessary extensions
+## Step 2: Start postgres server locally
 
 - Start the postgres db using docker-compose
 ```sh
