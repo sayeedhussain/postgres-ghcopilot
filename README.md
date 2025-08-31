@@ -46,3 +46,7 @@ A Copilot chat interface will open, pre-filled with the @pgsql chat participant.
 
 Example prompts:
 - To retrieve data: "Show the 10 highest value orders".
+
+## Step 6: Review and execute the generated SQL
+
+Always review the generated code before execution, especially when making modifications.
