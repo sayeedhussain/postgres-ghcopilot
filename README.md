@@ -1,4 +1,4 @@
-* Generated with Google AI assistance
+_Generated with Google AI assistance_
 
 ## About
 
