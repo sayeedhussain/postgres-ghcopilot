@@ -14,20 +14,31 @@ This repo demonstrates how to talk to a postgres database using natural language
 - Search for GitHub Copilot and GitHub Copilot Chat and click Install for both.
 - Search for PostgreSQL and click Install on the extension published by Microsoft. 
 
-## Step 2: Connect to your PostgreSQL database
+## Step 2: Install the necessary extensions
+
+- Start the postgres db using docker-compose
+```sh
+docker-compose up -d
+```
+- Check orders table is created properly
+```sh
+docker exec -it pg-orders psql -U admin -d shop -c "SELECT count(*) FROM orders;"
+```
+
+## Step 3: Connect to your PostgreSQL database
 
 - Open the PostgreSQL extension in the VS Code Activity Bar.
 - Select the + icon in the Connections view to create a new connection profile.
 - Enter your database connection details (host, user, password, database) to connect to your PostgreSQL instance. 
 
-## Step 3: Start a Copilot chat session with your database
+## Step 4: Start a Copilot chat session with your database
 
 - Ensure you are logged-in on github copilot in VSCode
 - In the Connections view, right-click on your connected PostgreSQL database.
 - Select Chat with this database from the context menu.
 - If prompted, grant permission for the extension to access the database connection context for Copilot.
 
-## Step 4: Query with natural language
+## Step 5: Query with natural language
 
 A Copilot chat interface will open, pre-filled with the @pgsql chat participant. This agent gives Copilot the schema context it needs to generate accurate queries. 
 
