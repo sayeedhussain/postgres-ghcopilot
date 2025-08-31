@@ -1,3 +1,5 @@
+* Generated with Google AI assistance
+
 ## About
 
 This repo demonstrates how to talk to a postgres database using natural language in VSCode
