@@ -22,7 +22,7 @@ This repo demonstrates how to talk to a postgres database using natural language
 
 ## Step 3: Start a Copilot chat session with your database
 
-- Ensure you are logged-in to github copilot
+- Ensure you are logged-in on github copilot in VSCode
 - In the Connections view, right-click on your connected PostgreSQL database.
 - Select Chat with this database from the context menu.
 - If prompted, grant permission for the extension to access the database connection context for Copilot.
